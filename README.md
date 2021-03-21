@@ -87,17 +87,21 @@ See [my
 ### Distribution of Revenues and Profits
 
 Box office revenues are skewed fairly heavily to the right, with many outliers in the upper ranges. I will use median as my primary measure of central tendency, since it is less susceptible to outliers.
+
 ![Revenue Box Plots](./images/output_137_0.png)
 
 If we zoom in on the distributions without outliers, median revenues are fairly consistent year-over-year, hovering around $50 M most years.
 
 50% of revenues over the past 10 years fall between $13.6 M and $177.2 M.
+
 ![Revenue Box Plots (No Outliers)](./images/output_139_0.png)
 
 Similarly to revenue, profit distributions are also skewed to the right with many outliers in the upper ranges. Median is the most appropriate measure of central tendency.
+
 ![Profit Box Plots](./images/output_143_0.png)
 
 Median profits hover around around $27 M, with 50% of revenues falling in the range between -$452 K and $117.94 M
+
 ![Profit Box Plots (no outliers)](./images/output_145_0.png)
 
 Box office revenues have remained fairly steady over the past 10 years, despite new studios releasing original content primarily online.
@@ -105,15 +109,18 @@ Box office revenues have remained fairly steady over the past 10 years, despite 
 COVID-19 pandemic is likely a primary factor contributing to the dip in 2020, since theaters were closed in the US for most of the year. 
 
 2020 also has a very high variability (tall error bar), so while median revenue was down overall, there were still some movies that made large amounts of revenue. This could be due to the way studios decided which movies to release (that were more likely to make high revenues) versus movies that were held back until after the pandemic or released online only. 
+
 ![Median Revenues](./images/output_149_0.png)
 
 ***
 ### Characteristice of Successful Movies
 
 Animation, Adventure, Science Fiction, and Fantasy movies are the best genres to choose if Microsoft's primary goal is to maximize profits.
+
 ![Genre by Profit](./images/output_154_0.png)
 
 If the goal is to maximize ROI, Documentaries generate by far the highest, followed by Horror.
+
 ![Genre by ROI](./images/output_156_0.png)
 
 Movies with higher budgets generally make more profits.
@@ -121,6 +128,7 @@ Movies with higher budgets generally make more profits.
 - For a chance at the highest profits, Microsoft should make movies with higher budgets.
 
 - The top 25% of budgets start at around $62.7 M, which is a reasonable floor for budgets to maximize profits.
+
 ![Budget v Profit](./images/output_159_1.png)
 
 However, the inverse is true for ROI: movies with the lowest budgets make the highest ROI, and ROI decreases as budgets increase.
@@ -128,6 +136,7 @@ However, the inverse is true for ROI: movies with the lowest budgets make the hi
 - To maximize ROI, Microsoft should make movies with lower budgets.
 
 - The bottom 25% of budgets go up to around $10.9 M, which is a reasonable ceiling for budgets to maximize ROI.
+
 ![Budget v ROI](./images/output_162_1.png)
 
 Movies released in December have the highest median profit by far. May, June, July, and November are also good choices for release months.
@@ -135,6 +144,7 @@ Movies released in December have the highest median profit by far. May, June, Ju
 - Microsoft should avoid releasing movies in September, and also October, as they had the lowest media profits. 
 
 - September and October also had the highest number of movies released, so the lower median profit in these months could be due to competition.
+
 ![Budget v ROI](./images/output_166_0.png)
 
 ***
